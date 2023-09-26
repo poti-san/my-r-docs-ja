@@ -1,5 +1,5 @@
 ---
-title: R関係の私的な和訳 - my-r-docs-ja
+title: R関係の私的な和訳
 ---
 
 {% raw %}
