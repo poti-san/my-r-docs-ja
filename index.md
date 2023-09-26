@@ -1,3 +1,7 @@
+---
+templateEngineOverride: md
+---
+
 # R関係の私的な和訳 - my-r-docs-ja
 ## あばうと
 趣味のプログラマーによるR言語関係の翻訳集です。GitHubも翻訳も手探りですが、誰かの助けになったら幸いです。
