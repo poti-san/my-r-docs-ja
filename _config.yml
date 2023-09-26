@@ -6,3 +6,5 @@ description              : "趣味プログラマーによるR関係の私的な
 url                      : "https://poti-san.github.io"
 repository               : "poti-san.github.io/my-r-docs-ja"
 remote_theme             : "just-the-docs/just-the-docs"
+plugins:
+  - jekyll-remote-theme
