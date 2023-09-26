@@ -1,8 +1,9 @@
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: データマスク処理とは何でなぜ`{{`が必要なのか？
 ---
+
+{% raw %}
 
 # データマスク処理とは何でなぜ`{{`が必要なのか？
 
@@ -166,3 +167,5 @@ tidyverse は ggplot2 のようなパッケージでデータマスクの手法�
 
 - データマスクプログラミングパターン
 - R 表現のディフューズ
+
+{% end raw %}
