@@ -1,8 +1,9 @@
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: データマスクの曖昧さ
 ---
+
+{% raw %}
 
 # データマスクの曖昧さ
 
@@ -182,3 +183,5 @@ my_group_by <- function(data, vars) {
 ```
 
 tidy選択がデータマスクの曖昧さに影響される場合、この関数には列衝突のリスクがあります。ユーザーの与えたデータフレームが`vars`列を含む場合です。しかし、`all_of()`はデータマスクの外側で評価される環境表現なので、この衝突は発生しません。
+
+{% end raw %}
