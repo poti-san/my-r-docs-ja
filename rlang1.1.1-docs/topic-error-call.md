@@ -1,5 +1,5 @@
+{% raw  %}
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: エラーメッセージに関数呼び出しを含める
 ---
@@ -199,3 +199,4 @@ expect_snapshot_error(my_function())
 ```
 
 エラーメッセージのスナップショット被覆率はパッケージの十分さにつながることを改めて確認してください。
+<% end raw %>
