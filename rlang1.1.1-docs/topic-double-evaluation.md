@@ -1,5 +1,5 @@
+{% raw %}
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: 二重評価問題
 ---
@@ -118,3 +118,4 @@ summarise_stats(mtcars, times100(cyl))
 ```
 
 グルー文字列は式の結果を必要としないため、元のコードを文字列に変換する（deparseする）だけです。注入式は評価しません。
+{% end raw %}
