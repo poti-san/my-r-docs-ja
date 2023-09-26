@@ -1,4 +1,5 @@
 ---
+templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: "`{{`は通常のオブジェクトとして機能するか？"
 ---
