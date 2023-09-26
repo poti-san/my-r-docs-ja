@@ -1,8 +1,9 @@
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: データマスクプログラミングパターン
 ---
+
+{% raw %}
 
 # データマスクプログラミングパターン
 
@@ -369,3 +370,5 @@ filter_non_baseline <- function(.data, ...) {
 
 mtcars %>% filter_non_baseline(vs, am, gear)
 ```
+
+{% end raw %}
