@@ -6,7 +6,7 @@ title: R関係の私的な和訳
 ## あばうと
 
 - 趣味のプログラマーによるR言語関係の翻訳集です。GitHubも翻訳も手探りですが、誰かの助けになったら幸いです。
-- 最初はちょこちょこ追加するので、大量の修正履歴が残ると思います。おかしな点があればお気軽にご指摘ください。
+- ちょこちょこ修正する予定です。おかしな点があればお気軽にご指摘ください。
 
 ## rlang 1.1.1 トピックス
 
@@ -28,7 +28,7 @@ title: R関係の私的な和訳
 - [ガイド] 未翻訳　原文：[Taking multiple columns without `...`](https://rlang.r-lib.org/reference/topic-multiple-columns.html)
 - [ノート] [なぜ文字列やその他の定数は空の環境でquoseされるのか？](rlang1.1.1-topics/topic-embrace-constants.md)　原文：[Why are strings and other constants enquosed in the empty environment?](https://rlang.r-lib.org/reference/topic-embrace-constants.html)
 ### 条件
-- [ガイド] [エラーメッセージに関数呼び出しを含める](topic-error-call.md)　原文：[Including function calls in error messages](https://rlang.r-lib.org/reference/topic-error-call.html)
+- [ガイド] [エラーメッセージに関数呼び出しを含める](rlang1.1.1-topics/topic-error-call.md)　原文：[Including function calls in error messages](https://rlang.r-lib.org/reference/topic-error-call.html)
 - [ガイド] 未翻訳　原文：[Including contextual information with error chains](https://rlang.r-lib.org/reference/topic-error-chaining.html)
 - [ガイド] [cliを用いたメッセージの書式化](rlang1.1.1-topics/topic-condition-formatting.md)　原文：[Formatting messages with cli](https://rlang.r-lib.org/reference/topic-condition-formatting.html)
 - [ノート] [状態メッセージのカスタマイズ](rlang1.1.1-topics/topic-condition-customisation.md)　原文：[Customising condition messages](https://rlang.r-lib.org/reference/topic-condition-customisation.html)
