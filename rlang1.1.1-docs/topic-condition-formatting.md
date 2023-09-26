@@ -1,8 +1,9 @@
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: cliを用いたメッセージの書式化
 ---
+
+{% raw %}
 
 # cliを用いたメッセージの書式化
 
@@ -98,3 +99,5 @@ on_load(local_use_cli())
 - `abort()`から[`cli::cli_abort()`](https://cli.r-lib.org/reference/cli_abort.html)へ段階的に移行する。
 - 補間シンタックスを無効化したい場合に`abort()`を利用する。
 - `error_cnd()`を用いてエラー状態を作成する。これらの状態メッセージはcliでも自動的に書式化されます。
+
+{% end raw %}
