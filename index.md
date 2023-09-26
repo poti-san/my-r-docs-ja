@@ -32,4 +32,11 @@ title: R関係の私的な和訳
 - [ガイド] 未翻訳　原文：[Including contextual information with error chains](https://rlang.r-lib.org/reference/topic-error-chaining.html)
 - [ガイド] [cliを用いたメッセージの書式化](rlang1.1.1-topics/topic-condition-formatting.md)　原文：[Formatting messages with cli](https://rlang.r-lib.org/reference/topic-condition-formatting.html)
 - [ノート] [状態メッセージのカスタマイズ](rlang1.1.1-topics/topic-condition-customisation.md)　原文：[Customising condition messages](https://rlang.r-lib.org/reference/topic-condition-customisation.html)
+
+## GitHubリポジトリ
+
+このGitHub PagesのGitHubリポジトリに関する備考です。
+
+- ほとんどのマークダウンファイルでは全体または先頭のYAML以降を`{% raw %}`～`{% endraw %}`で囲っています。GitHub Pagesが内部で使用するLiquidとtidyverseの`{{`が衝突して発生するエラーを回避するためです。Jekyllがバージョン4になったらYAMLのLiquid無効化設定と入れ替えます。
+
 {% endraw %}
