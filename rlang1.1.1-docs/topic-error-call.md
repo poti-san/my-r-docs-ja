@@ -200,4 +200,4 @@ expect_snapshot_error(my_function())
 
 エラーメッセージのスナップショット被覆率はパッケージの十分さにつながることを改めて確認してください。
 
-<% endraw %>
+{% endraw %}
