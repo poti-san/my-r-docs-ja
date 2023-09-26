@@ -11,9 +11,8 @@ title: R関係の私的な和訳
 
 ## rlang 1.1.1 添付文書和訳
 
-tidyverseのtidy評価機能を提供する[rlangパッケージ バージョン1.1.1](https://rlang.r-lib.org/index.html)の添付文書和訳です。
-
-rlangはrlang authorsの著作物であり、MITライセンスで公開されています。詳細は[rlangのフルライセンス表記](https://rlang.r-lib.org/LICENSE.html)を参照してください。以下の翻訳もMITライセンスに従います。
+- tidyverseのtidy評価機能を提供する[rlangパッケージ バージョン1.1.1](https://rlang.r-lib.org/index.html)の添付文書和訳です。
+- rlangはrlang authorsの著作物であり、MITライセンスで公開されています。詳細は[rlangのフルライセンス表記](https://rlang.r-lib.org/LICENSE.html)を参照してください。以下の翻訳もMITライセンスに従います。
 
 ### Tidy評価
 - [概観] [データマスク処理とは何でなぜ`{{`が必要なのか？](rlang1.1.1-docs/topic-data-mask.md)　原文：[What is data-masking and why do I need `{{`?](https://rlang.r-lib.org/reference/topic-data-mask.html)
