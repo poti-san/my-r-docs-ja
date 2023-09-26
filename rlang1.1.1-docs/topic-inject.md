@@ -1,5 +1,5 @@
+{% raw  %}
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: "`!!`、`!!!`、glue構文による注入"
 ---
@@ -168,3 +168,4 @@ rlangと他の言語の主な違いは疑似引用はしばしば明示的でな
 ## 関連項目
 
 - [コンテキスト外で注入演算子を使うと何が起こるか？](topic-inject-out-of-context.md)
+{% end raw %}
