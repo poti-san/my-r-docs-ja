@@ -30,4 +30,4 @@ rlangはrlang authorsの著作物であり、MITライセンスで公開され�
 - [ガイド] 未翻訳　原文：[Including contextual information with error chains](https://rlang.r-lib.org/reference/topic-error-chaining.html)
 - [ガイド] [cliを用いたメッセージの書式化](rlang1.1.1-docs/topic-condition-formatting.md)　原文：[Formatting messages with cli](https://rlang.r-lib.org/reference/topic-condition-formatting.html)
 - [ノート] [状態メッセージのカスタマイズ](rlang1.1.1-docs/topic-condition-customisation.md)　原文：[Customising condition messages](https://rlang.r-lib.org/reference/topic-condition-customisation.html)
-{% end raw %}
+{% endraw %}
