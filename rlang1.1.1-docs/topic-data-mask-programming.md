@@ -370,5 +370,4 @@ filter_non_baseline <- function(.data, ...) {
 
 mtcars %>% filter_non_baseline(vs, am, gear)
 ```
-
-{% end raw %}
+{% endraw %}
