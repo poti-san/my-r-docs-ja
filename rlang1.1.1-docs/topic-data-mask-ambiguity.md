@@ -1,5 +1,5 @@
 ---
-parent: rlib1.1.1-docs
+parent: rlang1.1.1-docs
 title: データマスクの曖昧さ
 ---
 
