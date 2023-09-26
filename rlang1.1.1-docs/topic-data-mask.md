@@ -1,4 +1,5 @@
 ---
+templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: データマスク処理とは何でなぜ`{{`が必要なのか？
 ---
