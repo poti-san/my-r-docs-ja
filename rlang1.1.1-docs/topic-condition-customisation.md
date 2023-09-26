@@ -1,8 +1,9 @@
 ---
-templateEngineOverride: md
 parent: rlang1.1.1-docs
 title: 状態メッセージのカスタマイズ
 ---
+
+{% raw %}
 
 # 状態メッセージのカスタマイズ
 
@@ -130,3 +131,4 @@ options(cli.user_theme = list(
   )
 ))
 ```
+{% end raw %}
