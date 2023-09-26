@@ -27,7 +27,7 @@ rlangはrlang authorsの著作物であり、MITライセンスで公開され�
 - [概観] 未翻訳　原文：[Metaprogramming patterns](https://rlang.r-lib.org/reference/topic-metaprogramming.html)
 - [概観] 未翻訳　原文：[What are quosures and when are they needed?](https://rlang.r-lib.org/reference/topic-quosure.html)
 - [ガイド] 未翻訳　原文：[Taking multiple columns without `...`](https://rlang.r-lib.org/reference/topic-multiple-columns.html)
-- [ノート] [なぜ文字列やその他の定数は空の環境でquoseされるのか？](topic-embrace-constants.md)　原文：[Why are strings and other constants enquosed in the empty environment?](https://rlang.r-lib.org/reference/topic-embrace-constants.html)
+- [ノート] [なぜ文字列やその他の定数は空の環境でquoseされるのか？](rlang1.1.1-docs/topic-embrace-constants.md)　原文：[Why are strings and other constants enquosed in the empty environment?](https://rlang.r-lib.org/reference/topic-embrace-constants.html)
 ### 条件
 - [ガイド] [エラーメッセージに関数呼び出しを含める](topic-error-call.md)　原文：[Including function calls in error messages](https://rlang.r-lib.org/reference/topic-error-call.html)
 - [ガイド] 未翻訳　原文：[Including contextual information with error chains](https://rlang.r-lib.org/reference/topic-error-chaining.html)
