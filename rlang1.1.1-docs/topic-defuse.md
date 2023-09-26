@@ -185,4 +185,4 @@ R は引数の式を正確に評価するために環境の情報を必要とし
 - `enquo()`は[`base::substitute()`](https://rdrr.io/r/base/substitute.html)と同等です。ただし後者はquosureではなく式そのものを返します。
 - `enquos()`と同等な関数はありません。ただし、`eval(substitute(alist(...)))`によりドットを式そのもののリストにディフューズできます。
 
-{% end raw %}
+{% endraw %}
