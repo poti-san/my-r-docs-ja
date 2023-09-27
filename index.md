@@ -1,7 +1,6 @@
 ---
 title: R関係の私的な和訳
 ---
-
 {% raw %}
 ## あばうと
 
@@ -37,6 +36,6 @@ title: R関係の私的な和訳
 
 このGitHub PagesのGitHubリポジトリに関する備考です。
 
-- ほとんどのマークダウンファイルでは全体または先頭のYAML以降を`{% raw %}`～`{% endraw %}`で囲っています。GitHub Pagesが内部で使用するLiquidとtidyverseの`{{`が衝突して発生するエラーを回避するためです。Jekyllがバージョン4になったらYAMLのLiquid無効化設定と入れ替えます。
+- ほとんどのマークダウンファイルでは全体または先頭のYAML以降を`%7B% raw %}`～`%7b% endraw %}`で囲っています。GitHub Pagesが内部で使用するLiquidとtidyverseの`{{`が衝突して発生するエラーを回避するためです。Jekyllがバージョン4になったらYAMLのLiquid無効化設定と入れ替えます。
 
 {% endraw %}
