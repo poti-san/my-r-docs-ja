@@ -7,11 +7,9 @@ title: cliを用いたメッセージの書式化
 
 # cliを用いたメッセージの書式化
 
-状態の書式化はエラーメッセージの生入力に適用できる処理集です。次を含みます。
+状態の書式化はエラーメッセージの生入力に適用できる処理の一式です。次を含みます。
 
-- 変換
-- 
-  行単位の文字列ベクトルから指定幅で折り返されたエラー箇条書きへの変換です。各項目でひとつずつ要点を伝える箇条書きによりメッセージの記述を簡単にします。
+- 行単位の文字列ベクトルから指定幅で折り返されたエラー箇条書きへの変換。各項目でひとつずつ要点を伝える箇条書きを用いてメッセージの記述を簡単にします。
   
   ```r
   abort(c(
@@ -29,13 +27,13 @@ title: cliを用いたメッセージの書式化
   
   エラーメッセージスタイルの詳細は[tidyverse error style guide](https://style.tidyverse.org/error-messages.html)を参照してください。
 
-- スタイルの適用（強調、太字等）とメッセージ要素の色付け
+- スタイルの適用（強調、太字等）とメッセージ要素の色付け。
 
-rlangパッケージは基本的な書式化ルーチンを埋め込みますが、主な書式化エンジンは[cliパッケージ](https://cli.r-lib.org/)で実装されています。
+rlangパッケージには基本的な書式化ルーチンが組み込まれていますが、主な書式化エンジンは[cliパッケージ](https://cli.r-lib.org/)で実装されています。
 
 ### cliによるメッセージの書式化
 
-既定ではrlangは箇条書きの書式化に内部機構を使用します。しかし、[`cli::cli_abort()`](https://cli.r-lib.org/reference/cli_abort.html)、[`cli::cli_warn()`](https://cli.r-lib.org/reference/cli_abort.html)、[`cli::cli_inform()`](https://cli.r-lib.org/reference/cli_abort.html)による[cliパッケージ](https://cli.r-lib.org/)への書式化の委任はより望ましい方法です。これらのラッパーは洗練された段落の折り返しと行頭文字を用いたインデント処理により長文の読みやすさを向上させるcli書式化を有効化します。次のコードは箇条書きの長い`!`項目がインデントされた改行により分割されています。
+既定ではrlangは箇条書きの書式化に内部機構を使用します。しかし、より望ましい書式化は[`cli::cli_abort()`](https://cli.r-lib.org/reference/cli_abort.html)、[`cli::cli_warn()`](https://cli.r-lib.org/reference/cli_abort.html)、[`cli::cli_inform()`](https://cli.r-lib.org/reference/cli_abort.html)による[cliパッケージ](https://cli.r-lib.org/)への委任です。これらのラッパーはcli書式化が有効であり、洗練された段落の折り返しと行頭記号によるインデント処理で長文の読みやすさを向上させます。次のコードは箇条書き中の長い`!`項目がインデントされた改行により分割されています。
 
 ```r
 rlang::global_entrace(class = "errorr")
@@ -66,7 +64,7 @@ inform_marbles(2)
 
 ### `abort()`から`cli_abort()`への移行
 
-大量の`abort()`を[`cli::cli_abort()`](cli_abort.html)に書き換える場合、ユーザーの入力を用いるエラーメッセージの構築に注意してください。入力がcliやglueのシンタックスを含む場合、デバッグの難しいエラーや[予期しない動作](https://xkcd.com/327/)を起こす可能性があります。
+大量の`abort()`を[`cli::cli_abort()`](cli_abort.html)に書き換える場合、ユーザーの入力を用いたエラーメッセージの構築に注意してください。入力がcliやglueのシンタックスを含む場合、デバッグの難しいエラーや[予期しない動作](https://xkcd.com/327/)を起こす可能性があります。
 
 ```r
 user_input <- "{base::stop('Wrong message.', call. = FALSE)}"
@@ -77,7 +75,7 @@ cli::cli_abort(sprintf("Can't handle input `%s`.", user_input))
 #> ! Wrong message.
 ```
 
-上記のエラーや予期しない動作を回避するには、入力の組み立てにcliを用いてエラーメッセージを保護します。
+上記のエラーや予期しない動作を回避するには、入力の構築にcliを用いてエラーメッセージを保護します。
 
 ```r
 user_input <- "{base::stop('Wrong message.', call. = FALSE)}"
@@ -94,7 +92,7 @@ cli::cli_abort("Can't handle input {.code {user_input}}.")
 on_load(local_use_cli())
 ```
 
-`abort()`でのcli書式化有効化は次の点で便利です。
+`abort()`でのcli書式化を有効にすると次の点で便利です。
 
 - `abort()`から[`cli::cli_abort()`](https://cli.r-lib.org/reference/cli_abort.html)へ段階的に移行する。
 - 補間シンタックスを無効化したい場合に`abort()`を利用する。
