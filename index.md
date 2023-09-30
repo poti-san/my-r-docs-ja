@@ -24,7 +24,7 @@ title: R関係の私的な和訳
 - [概観] [`!!`、`!!!`、glue構文による注入](rlang1.1.1-topics/topic-inject.md)　原文：[Injecting with `!!`, `!!!`, and glue syntax](https://rlang.r-lib.org/reference/topic-inject.html)
 - [概観] 未翻訳　原文：[Metaprogramming patterns](https://rlang.r-lib.org/reference/topic-metaprogramming.html)
 - [概観] 未翻訳　原文：[What are quosures and when are they needed?](https://rlang.r-lib.org/reference/topic-quosure.html)
-- [ガイド] 未翻訳　原文：[Taking multiple columns without `...`](https://rlang.r-lib.org/reference/topic-multiple-columns.html)
+- [ガイド] [...を使わずに複数列を受け取る](rlang1.1.1-topics/topic-multiple-columns.md)　原文：[Taking multiple columns without `...`](https://rlang.r-lib.org/reference/topic-multiple-columns.html)
 - [ノート] [なぜ文字列やその他の定数は空の環境でquoseされるのか？](rlang1.1.1-topics/topic-embrace-constants.md)　原文：[Why are strings and other constants enquosed in the empty environment?](https://rlang.r-lib.org/reference/topic-embrace-constants.html)
 ### 条件
 - [ガイド] [エラーメッセージに関数呼び出しを含める](rlang1.1.1-topics/topic-error-call.md)　原文：[Including function calls in error messages](https://rlang.r-lib.org/reference/topic-error-call.html)
