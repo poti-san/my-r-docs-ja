@@ -17,7 +17,7 @@ title: R関係の私的な和訳
 - [概観] [データマスクプログラミングパターン](rlang1.1.1-topics/topic-data-mask-programming.md)　原文：[Data mask programming patterns](https://rlang.r-lib.org/reference/topic-data-mask-programming.html)
 - [ガイド] [データマスクの曖昧さ](rlang1.1.1-topics/topic-data-mask-ambiguity.md)　原文：[The data mask ambiguity](https://rlang.r-lib.org/reference/topic-data-mask-ambiguity.html)
 - [ガイド] [二重評価問題](rlang1.1.1-topics/topic-double-evaluation.md)　原文：[The double evaluation problem](https://rlang.r-lib.org/reference/topic-double-evaluation.html)
-- [ノート] 未翻訳　原文：[What happens if I use injection operators out of context?](https://rlang.r-lib.org/reference/topic-inject-out-of-context.html)
+- [ノート] [コンテキスト外で注入演算子を使うと何が起こるか？](rlang1.1.1-topics/topic-inject-out-of-context.md)　原文：[What happens if I use injection operators out of context?](https://rlang.r-lib.org/reference/topic-inject-out-of-context.html)
 - [ノート] [`{{`は通常のオブジェクトとして機能するか？](rlang1.1.1-topics/topic-embrace-non-args.md)　原文：[Does `{{` work on regular objects?](https://rlang.r-lib.org/reference/topic-embrace-non-args.html)
 ### メタプログラミング
 - [概観] [R式のディフューズ](rlang1.1.1-topics/topic-defuse.md)　原文：[Defusing R expressions](https://rlang.r-lib.org/reference/topic-defuse.html)
