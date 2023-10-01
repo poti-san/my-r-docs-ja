@@ -1,5 +1,5 @@
 ---
-parent: rlang1.1.1 トピックス
+parent: rlang 1.1.1 トピックス
 title: "`!!`、`!!!`、glue構文による注入"
 ---
 

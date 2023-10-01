@@ -1,7 +1,7 @@
 ---
 has_children: true
-title: rlang1.1.1 トピックス
+title: rlang 1.1.1 トピックス
 ---
 {% raw %}
-# rlang1.1.1 トピックス
+# rlang 1.1.1 トピックス
 {% endraw %}

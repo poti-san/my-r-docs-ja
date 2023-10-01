@@ -1,5 +1,5 @@
 ---
-parent: rlang1.1.1 トピックス
+parent: rlang 1.1.1 トピックス
 title: quosureとは何でいつ必要か？
 ---
 
