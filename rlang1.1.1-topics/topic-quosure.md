@@ -181,7 +181,7 @@ Promise（promisesパッケージの非同期式ではなくてRが遅延評価�
 
 ## 関連項目
 
-- `enquo()`と`enquos()`は関数の引数をquosureとしてディヒューズします。これらはquosureを作成する主な方法です。
+- `enquo()`と`enquos()`は関数の引数をquosureとしてディフューズします。これらはquosureを作成する主な方法です。
 - `quo()`は`expr()`に似ていますが、quosureでラップされます。通常、自前のローカル式はラップ不要です。
 - `quo_get_expr()`と`quo_get_env()`でquosureの成分にアクセスできます。
 - `new_quosure()` と`as_quosure()`で部分からquosureを構築できます。
