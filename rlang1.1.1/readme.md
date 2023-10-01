@@ -38,7 +38,7 @@ rlangはRやRオブジェクトと使える多様なインターフェイスを�
 
 - 評価：[`inject()`](reference/inject.html)、[`eval_bare()`](reference/eval_bare.html)等。
 
-- 呼び出しとシンボル：call2()`](reference/call2.html)、[`is_call()`](reference/is_call.html)、[`is_call_simple()`](reference/call_name.html)、[`data_sym()`](reference/sym.html)、[`data_syms()`](reference/sym.html)等。
+- 呼び出しとシンボル：[`call2()`](reference/call2.html)、[`is_call()`](reference/is_call.html)、[`is_call_simple()`](reference/call_name.html)、[`data_sym()`](reference/sym.html)、[`data_syms()`](reference/sym.html)等。
 
 - 関数：[`new_function()`](reference/new_function.html)、[`as_function()`](reference/as_function.html)等。後者はラムダ関数でpurrr形式の式表記に対応しています。
 
