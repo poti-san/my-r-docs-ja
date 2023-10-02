@@ -29,7 +29,7 @@ title: R関係の私的な和訳
 ### メタプログラミング
 - [概観] [R式のディフューズ](rlang1.1.1/man/topic-defuse.md)　原文：[Defusing R expressions](https://rlang.r-lib.org/reference/topic-defuse.html)
 - [概観] [`!!`、`!!!`、glue構文による注入](rlang1.1.1/man/topic-inject.md)　原文：[Injecting with `!!`, `!!!`, and glue syntax](https://rlang.r-lib.org/reference/topic-inject.html)
-- [概観] 未翻訳　原文：[Metaprogramming patterns](https://rlang.r-lib.org/reference/topic-metaprogramming.html)
+- [概観] [メタプログラミングパターン](rlang1.1.1/man/topic-metaprogramming.md)　原文：[Metaprogramming patterns](https://rlang.r-lib.org/reference/topic-metaprogramming.html)
 - [概観] [quosureとは何でいつ必要か？](rlang1.1.1/man/topic-quosure.md)　原文：[What are quosures and when are they needed?](https://rlang.r-lib.org/reference/topic-quosure.html)
 - [ガイド] [`...`を使わずに複数列を受け取る](rlang1.1.1/man/topic-multiple-columns.md)　原文：[Taking multiple columns without `...`](https://rlang.r-lib.org/reference/topic-multiple-columns.html)
 - [ノート] [なぜ文字列やその他の定数は空の環境でquoseされるのか？](rlang1.1.1/man/topic-embrace-constants.md)　原文：[Why are strings and other constants enquosed in the empty environment?](https://rlang.r-lib.org/reference/topic-embrace-constants.html)
