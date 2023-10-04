@@ -2,14 +2,12 @@
 parent: rlang 1.1.1 トピックス
 title: cliを用いたメッセージの書式化
 ---
-
 {% raw %}
-
 # cliを用いたメッセージの書式化
 
 状態の書式化はエラーメッセージの生入力に適用できる処理の一式です。次を含みます。
 
-- 行単位の文字列ベクトルから指定幅で折り返されたエラー箇条書きへの変換。各項目でひとつずつ要点を伝える箇条書きを用いてメッセージの記述を簡単にします。
+- 文字列ベクトル単位の行から指定幅で折り返されたエラー箇条書きへの変換。箇条書きで各項目ひとつずつ要点を伝えてメッセージの記述を簡単にします。
   
   ```r
   abort(c(
@@ -25,7 +23,7 @@ title: cliを用いたメッセージの書式化
   #> x クロスバレット
   ```
   
-  エラーメッセージスタイルの詳細は[tidyverse error style guide](https://style.tidyverse.org/error-messages.html)を参照してください。
+エラーメッセージスタイルの詳細は[tidyverse error style guide](https://style.tidyverse.org/error-messages.html)を参照してください。
 
 - スタイルの適用（強調、太字等）とメッセージ要素の色付け。
 
@@ -43,7 +41,7 @@ rlang::global_entrace(class = "errorr")
 #> i Did you mean "error"?
 ```
 
-cliラッパーはさらに補間、テキスト要素の意味的書式化、複数化のような機能を提供します。
+cliラッパーは他にも補間、テキスト要素の意味的書式化、複数化等の機能を提供します。
 
 ```r
 inform_marbles <- function(n_marbles) {
