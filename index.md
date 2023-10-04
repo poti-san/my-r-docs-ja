@@ -16,7 +16,7 @@ title: R関係の私的な和訳
 
 - tidyverseのtidy評価機能を提供する[rlangパッケージ](https://rlang.r-lib.org/index.html)バージョン1.1.1のトピック和訳です。
 - rlang 1.1.1はrlang authorsの著作物でMITライセンスです。詳細は[rlangのフルライセンス表記](https://rlang.r-lib.org/LICENSE.html)を参照してください。以下の翻訳もMITライセンスに従います。
-  - なお、`hash()`はBSD 2-Clause LicenseのxxHashライブラリーを使用しています。詳細は[rlangのライセンスノート](https://github.com/r-lib/rlang/blob/main/LICENSE.note)を参照してください。
+  - `hash()`はBSD 2-Clause LicenseのxxHashライブラリーを使用しています。詳細は[rlangのライセンスノート](https://github.com/r-lib/rlang/blob/main/LICENSE.note)を参照してください。
 - 原文は最新版のため、和訳と内容が異なる可能性があります。その場合はrlang GitHubリポジトリからバージョン1.1.1のZIPファイルをダウンロードして対応するファイルを確認してください。
 
 ### tidy評価
