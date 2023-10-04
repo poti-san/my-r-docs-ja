@@ -15,7 +15,7 @@ rlangはRプログラミングで使うフレームワークとAPIのコレク�
 rlangは2つの包括的なフレームワークを定義します。
 
 - **tidy評価**：dplyrやggplot2のようなtidyverseパッケージで使うプログラム可能な[データマスク](topic-data-mask.html)フレームワークです。使用者としてはエンブレース演算子[`{{`](reference/embrace-operator.html)や[glueパッケージ](https://glue.tidyverse.org/)の演算子[`"{"`と`"{{"`](reference/glue-operators.html)を用いた名前注入で出会うでしょう。
-- **rlangエラーズ**：エラー通知・表示のツール集です。[`global_entrace()`](reference/global_entrace.html)によるバックトレースのキャプチャや[`last_error()`](reference/last_error.html)と[`last_warnings()`](reference/last_warnings.html)によるバックトレースの表示を含みます。[`abort()`](reference/abort.html)を使えば箇条書き、構造化メタデータ、エラー連鎖対応を使ってエラーを作成できます。エラーメッセージの表示は箇条書き、連鎖エラーに最適化されており、オプションでcliパッケージ（[`local_use_cli()`](reference/local_use_cli.html)を参照）と統合できます。
+- **rlangエラーズ**：エラー通知・表示のツール集です。[`global_entrace()`](reference/global_entrace.html)によるバックトレースのキャプチャや[`last_error()`](reference/last_error.html)と[`last_warnings()`](reference/last_warnings.html)によるバックトレースの表示を含みます。[`abort()`](reference/abort.html)を使えば箇条書き、構造化メタデータ、エラー連鎖サポートを使ってエラーを作成できます。エラーメッセージの表示は箇条書きと連鎖エラーに最適化されており、オプションでcliパッケージ（[`local_use_cli()`](reference/local_use_cli.html)を参照）と統合できます。
 
 ## 引数の摂取
 
