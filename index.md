@@ -34,7 +34,7 @@ title: R関係の私的な和訳
 - [ノート] [なぜ文字列やその他の定数は空の環境でquoseされるのか？](rlang1.1.1/man/topic-embrace-constants.md)　原文：[Why are strings and other constants enquosed in the empty environment?](https://rlang.r-lib.org/reference/topic-embrace-constants.html)
 ### 条件
 - [ガイド] [エラーメッセージに関数呼び出しを含める](rlang1.1.1/man/topic-error-call.md)　原文：[Including function calls in error messages](https://rlang.r-lib.org/reference/topic-error-call.html)
-- [ガイド] 未翻訳　原文：[Including contextual information with error chains](https://rlang.r-lib.org/reference/topic-error-chaining.html)
+- [ガイド] [エラー連鎖にコンテキスト情報を含める](rlang1.1.1/man/topic-error-chaining.md)　原文：[Including contextual information with error chains](https://rlang.r-lib.org/reference/topic-error-chaining.html)
 - [ガイド] [cliを用いたメッセージの書式化](rlang1.1.1/man/topic-condition-formatting.md)　原文：[Formatting messages with cli](https://rlang.r-lib.org/reference/topic-condition-formatting.html)
 - [ノート] [状態メッセージのカスタマイズ](rlang1.1.1/man/topic-condition-customisation.md)　原文：[Customising condition messages](https://rlang.r-lib.org/reference/topic-condition-customisation.html)
 
