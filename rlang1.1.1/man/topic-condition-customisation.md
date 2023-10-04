@@ -7,11 +7,11 @@ title: 状態メッセージのカスタマイズ
 
 # 状態メッセージのカスタマイズ
 
-`abort()`、`warn()`、`inform()`による状態メッセージは[cli パッケージ](https://cli.r-lib.org)のオプションでカスタマイズできます。
+`abort()`、`warn()`、`inform()`の状態メッセージは[cliパッケージ](https://cli.r-lib.org)のオプションでカスタマイズできます。
 
 ## 箇条書きのUnicode行頭文字の無効化
 
-既定では箇条書きの行頭記号はUnicodeシンボルが使われます。
+既定では箇条書きの行頭記号にUnicodeシンボルが使われます。
 
 ```r
 rlang::abort(c(
@@ -31,7 +31,7 @@ rlang::abort(c(
 #> → Arrow bullet.
 ```
 
-次のオプションを使用して行頭記号を簡単な文字に変更できます。
+次のようにオプションで行頭記号を簡単な文字に変更できます。
 
 ```r
 options(cli.condition_unicode_bullets = FALSE)
@@ -55,7 +55,7 @@ rlang::abort(c(
 
 ## 行頭記号の変更
 
-cliユーザーテーマを使えば行頭記号を設定できます。次のコードはすべての行頭記号を`*`にします。
+cliユーザーテーマを使って行頭記号を設定できます。次のコードはすべての行頭記号を`*`にします。
 
 ```r
 options(cli.user_theme = list(
@@ -83,7 +83,7 @@ rlang::abort(c(
 #> * Arrow bullet.
 ```
 
-`bullett`クラスを使えばリードを含むすべての行頭記号を同じ記号に統一できます。
+`bullett`クラスを使えばリードを含むすべての行頭記号を統一できます。
 
 ```r
 options(cli.user_theme = list(
