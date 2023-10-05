@@ -40,7 +40,7 @@ eval(e, mtcars)
 
 ## ディフューズ済み式について知るべきでしょうか？
 
-tidyverse使用者が`expr()`で式を手動ディフューズする必要はほとんどありません。[`eval()`](https://rdrr.io/r/base/eval.html)や`eval_tidy()`による式の再開も同様です。代わりにデータマスク関数を呼び出すことで引数のディフューズやデータマスクコンテキストを再開できます。
+tidyverseユーザーが`expr()`で式を手動ディフューズする必要はほとんどありません。[`eval()`](https://rdrr.io/r/base/eval.html)や`eval_tidy()`による式の再開も同様です。代わりにデータマスク関数を呼び出すことで引数のディフューズやデータマスクコンテキストを再開できます。
 
 ```r
 mtcars %>% dplyr::summarise(
