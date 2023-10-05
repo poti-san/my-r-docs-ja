@@ -1,6 +1,5 @@
 ---
 title: here 1.0.1 readme
-parent: R/r-lib
 ---
 
 {% raw %}
