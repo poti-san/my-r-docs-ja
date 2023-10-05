@@ -9,11 +9,11 @@ title: R関係の私的な和訳
 - 趣味のプログラマーによるR言語関係の翻訳集です。GitHubも翻訳も手探りですが、誰かの助けになったら幸いです。
 - ちょこちょこ修正する予定です。おかしな点があればお気軽にご指摘ください。
 
-## rlang 1.1.1 readme
+## rlang 1.1.1
 
-[readme.md](rlang1.1.1/readme.md)
+- [readme.md](rlang1.1.1/readme.md)
 
-## rlang 1.1.1 トピックス
+### rlang 1.1.1 トピックス
 
 - tidyverseのtidy評価機能を提供する[rlangパッケージ](https://rlang.r-lib.org/index.html)バージョン1.1.1のトピック和訳です。
 - rlang 1.1.1はrlang authorsの著作物でMITライセンスです。詳細は[rlangのフルライセンス表記](https://rlang.r-lib.org/LICENSE.html)を参照してください。以下の翻訳もMITライセンスに従います。
